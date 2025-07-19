@@ -40,7 +40,7 @@ const ExperienceCard = ({experience}: { experience: typeof experiences[number] }
 
 export const Experience = () => {
     return (
-        <div className="max-h-[calc(100vh-400px)] overflow-y-auto space-y-8 pr-2 pt-6">
+        <div className="space-y-8 animate-in fade-in duration-500 pt-6">
             {experiences.map((experience, index) => (
                 <ExperienceCard key={`${experience.title}-${index}`} experience={experience}/>
             ))}

@@ -37,7 +37,7 @@ const EducationCard = ({education}: { education: typeof educations[number] }) =>
 export const Education = () => {
 
     return (
-        <div className="max-h-[calc(100vh-400px)] overflow-y-auto space-y-8 pr-2 pt-6">
+        <div className="space-y-8 animate-in fade-in duration-500 pt-6">
             {educations.map((education, index) => (
                 <EducationCard key={`${education.degree}-${index}`} education={education}/>
             ))}
