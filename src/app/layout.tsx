@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: 'Your CV',
-    description: 'My professional resume',
+    title: '',
+    description: '',
 };
 
 export default function RootLayout({
